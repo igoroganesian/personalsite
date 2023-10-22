@@ -3,18 +3,26 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Personal website of Igor Oganesian.">
   <meta name="author" content="Igor Oganesian">
   <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Nanum+Pen+Script&display=swap"
-  rel="stylesheet">
+    rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>igoroganesian.io</title>
 </head>
-
+<!-- Not fully optimized for mobile! -->
 <body>
   <header>
-    <h1>Igor Oganesian</h1>
-    <img src="./resources/placeholderpic.jpg" alt="placeholder image">
+    <div class="header-text">
+      <p>Hey, I'm Igor 👋</p>
+      <h2>Full-Stack Engineer</h1>
+      <p>An adaptive developer with a passion for merging meticulous craftsmanship with user-centric design.</p>
+      <p>Currently available for hire.</p>
+    </div>
+    <div class="header-image">
+      <img src="./resources/self.png" alt="igor">
+    </div>
   </header>
 
   <!-- NAV -->
@@ -26,139 +34,102 @@
       <div class="nav-right">
         <li><a href="#projects">Projects</a></li>
         <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a class="contact" href="#contact">Contact</a></li>
       </div>
     </ul>
   </nav>
 
+  <!-- PROJECTS -->
+  <section class="projects" id="projects" href="#projects">
+    <br>
+    <h2>Projects</h2>
+    <p class="projectsHover"><i>(hover over any project to learn more!)</i></p>
+    <div class="project" data-aos="fade-right" data-aos-once="true">
+      <img src="./resources/pixly1.png">
+      <div class="overlay">
+        <h3>Pixly</h3>
+        <p>
+          An image gallery app that uploads to S3; images display metadata.
+        </p>
+        <ul class="toolsUsed">
+          <li>React</li>
+          <li>Flask</li>
+          <li>PostgreSQL</li>
+          <li>AWS S3</li>
+          <li>PIL</li>
+        </ul>
+        <div class="viewProject">
+          <a href="https://github.com/igoroganesian/pixly-frontend" target="_blank" class="button">github</a>
+        </div>
+      </div>
+    </div>
+    <div class="project">
+      <img src="./resources/jobly1.png">
+      <div class="overlay">
+        <h3>Jobly</h3>
+        <p>
+          A job board with company pages, user profiles, and search features.
+        </p>
+        <ul class="toolsUsed">
+          <li>React</li>
+          <li>Express</li>
+          <li>PostgreSQL</li>
+          <li>bcrypt</li>
+        </ul>
+        <ul class="viewProject">
+          <a href="https://github.com/igoroganesian/react-jobly" target="_blank" class="button">github</a>
+        </ul>
+      </div>
+    </div>
+    <div class="project">
+      <img src="./resources/warbler2.png">
+      <div class="overlay">
+        <h3>Warbler</h3>
+        <p>
+          A social microblogging & networking site allowing users to post,
+          like, follow etc.
+        </p>
+        <ul class="toolsUsed">
+          <li>Flask</li>
+          <li>SQLAlchemy</li>
+          <li>jQuery</li>
+          <li>Axios</li>
+        </ul>
+        <ul class="viewProject">
+          <a href="https://github.com/igoroganesian/flask-warbler" target="_blank" class="button">github</a>
+        </ul>
+      </div>
+    </div>
+  </section>
+
   <!-- ABOUT -->
   <section id="about" href="#about">
+    <br>
     <h2>About</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-      dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-      pariatur.
-      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  </section>
-
-
-
-  <!-- PROJECTS -->
-  <section class="portfolioProjects">
-    <div class="firstRow wrapper">
-      <div class="project" data-aos="fade-right" data-aos-once="true">
-        <img src="./resources/warbler1.png">
-        <div class="overlay">
-          <h3>Pixly</h3>
-          <p>
-            An image gallery app that uploads to S3; images display metadata.
-          </p>
-          <ul class="toolsUsed">
-            <li>React</li>
-            <li>Flask</li>
-            <li>PostgreSQL</li>
-            <li>AWS S3</li>
-            <li>PIL</li>
-          </ul>
-          <div class="viewProject">
-            <a href="https://github.com/igoroganesian/pixly-frontend" target="_blank" class="button">github</a>
-          </div>
-        </div>
-        </a>
-      </div>
-
-      <div class="project" data-aos="fade-left" data-aos-once="true">
-        <img src="./resources/jobly1.png">
-        <div class="overlay">
-          <h3>Jobly</h3>
-          <p>
-            A job board with company pages, user profiles, and search features.
-          </p>
-          <ul class="toolsUsed">
-            <li>React</li>
-            <li>Express</li>
-            <li>PostgreSQL</li>
-            <li>bcrypt</li>
-          </ul>
-          <ul class="viewProject">
-            <a href="https://github.com/igoroganesian/react-jobly" target="_blank" class="button">github</a>
-          </ul>
-        </div>
-        </a>
-      </div>
-    </div>
-
-    <div class="secondRow wrapper">
-      <div class="project" data-aos="fade-right" data-aos-once="true">
-        <img src="./resources/warbler1.png">
-        <div class="overlay">
-          <h3>Warbler</h3>
-          <p>
-            A social microblogging & networking site allowing users to post,
-            like, follow etc.
-          </p>
-          <ul class="toolsUsed">
-            <li>Flask</li>
-            <li>SQLAlchemy</li>
-            <li>jQuery</li>
-            <li>Axios</li>
-          </ul>
-          <ul class="viewProject">
-            <a href="" target="_blank"
-              class="button">github</a>
-          </ul>
-        </div>
-        </a>
-      </div>
-    </div>
-  </section>
-
-
-
-
-
-  <section id="projects" href="#projects">
-    <h2>Projects</h2>
-    <div class="figures">
-      <figure>
-        <a href="#projects"><img src="./resources/Screenshot 2023-09-25 at 1.25.00 PM.png"></a>
-        <figcaption>Warbler</figcaption>
-      </figure>
-      <figure>
-        <a href="#projects"><img src="./resources/placeholderpic.jpg"></a>
-        <figcaption>project caption</figcaption>
-      </figure>
-      <figure>
-        <a href="#projects"><img src="./resources/placeholderpic.jpg"></a>
-        <figcaption>project caption</figcaption>
-      </figure>
-      <figure>
-        <a href="#projects"><img src="./resources/placeholderpic.jpg"></a>
-        <figcaption>project caption</figcaption>
-      </figure>
-    </div>
-    </div>
+    <p>I'm a full-stack software engineer based in New York, NY. My background in psychology and
+      holistic health & wellness informs my approach to creating thoughtful & effective software
+      solutions. I prioritize technical precision alongside human experience to ensure my work
+      is both functional and aligned with user needs.</p>
+    <p>Off screen, I spend most of my free time drawing, woodcarving, reading, dancing, and keeping active.</p>
   </section>
 
   <!-- CONTACT -->
   <section id="contact" href="#contact">
-    <h2>Contact</h2>
+    <h2>Contact Me</h2>
+    <p>Feel free to reach out or connect!</p>
     <p>
-      Reach me at
-      <a class="icon" target="_blank" href="">
-        <i class="fa-brands fa-linkedin"></i>
+      <a class="icon" target="_blank" href="https://www.linkedin.com/in/igoroganesian/">
+        <i class="fa-brands fa-2x fa-linkedin"></i>
       </a>
-      and
       <a class="icon" target="_blank" href="mailto:igor.oganesian@gmail.com">
-        <i class="fas fa-envelope"></i>
+        <i class="fas fa-2x fa-envelope"></i>
       </a>
     </p>
   </section>
 
-
   <!-- FOOTER -->
   <!-- <footer>Copyright &copy; 2023</footer> -->
-  <footer class="footer">TEST TEXT</footer>
+  <footer class="footer"></footer>
   <script src="https://kit.fontawesome.com/f736d7b40a.js" crossorigin="anonymous"></script>
 </body>
 
