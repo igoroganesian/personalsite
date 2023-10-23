@@ -134,7 +134,7 @@ a:hover {
   margin: 1.5em 1em;
   border: 3px solid black;
   border-radius: 12px;
-  max-width: 70%;
+  max-width: 80%;
 }
 
 .project img {
@@ -144,18 +144,6 @@ a:hover {
   border-radius: 9px;
   margin-left: 0;
 }
-
-/* @media screen and (max-width: 768px) {
-  .project {
-      width: 50%;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .project {
-      width: 100%;
-  }
-} */
 
 .overlay {
   position: absolute;
@@ -271,7 +259,7 @@ img {
 
 
 /* Mobile */
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 850px) {
 
   .projects {
     display: flex;
