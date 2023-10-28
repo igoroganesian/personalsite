@@ -76,6 +76,12 @@ a:hover {
 	text-decoration: none;
 }
 
+.resume,
+.resume:visited {
+  color: #1E1E2A;
+  font-weight: 450;
+}
+
 /* NAV */
 
 nav {
