@@ -113,8 +113,7 @@ nav ul:active {
 }
 
 ul li {
-  padding-left: 1em;
-  padding-top: .7em;
+  padding: .7em 0 .7em 1em;
 }
 
 a {
