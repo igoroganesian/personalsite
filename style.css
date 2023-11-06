@@ -7,7 +7,9 @@
   color: #1E1E2A;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -65,7 +67,8 @@ header img {
   display: none;
 }
 
-h2, p {
+h2,
+p {
   padding: .5em 0;
 }
 
@@ -77,7 +80,7 @@ h2 {
 a,
 a:focus,
 a:hover {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 .resume,
@@ -106,6 +109,7 @@ nav ul {
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  padding-right: 2em;
 }
 
 nav ul,
@@ -113,7 +117,6 @@ nav ul:visited,
 nav ul:active {
   color: #F2F1EB;
   list-style-type: none;
-  padding-right: 2em;
 }
 
 ul li {
@@ -324,7 +327,8 @@ img {
     font-size: 1.1em;
   }
 
-  header, body {
+  header,
+  body {
     padding: 1em;
   }
 
