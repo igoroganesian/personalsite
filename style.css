@@ -61,6 +61,10 @@ header img {
   border-radius: 50%;
 }
 
+.header-image-top {
+  display: none;
+}
+
 h2, p {
   padding: .5em 0;
 }
@@ -139,7 +143,7 @@ a:hover {
   margin: 1.5em 1em;
   border: 3px solid black;
   border-radius: 12px;
-  max-width: 80%;
+  max-width: 50%;
 }
 
 .project img {
@@ -262,9 +266,23 @@ img {
   left: 0;
 }
 
-
 /* Mobile */
 @media screen and (max-width: 850px) {
+
+  header {
+    flex-direction: column;
+    margin-bottom: 1.5em;
+  }
+
+  .header-image-top {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.2em;
+  }
+
+  .header-image {
+    display: none;
+  }
 
   .projects {
     display: flex;
