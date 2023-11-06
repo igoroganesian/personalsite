@@ -337,6 +337,11 @@ img {
     line-height: 6em;
   }
 
+  nav ul {
+    padding-right: 1em;
+    justify-content: space-around;
+  }
+
   nav ul li a {
     font-size: 1.3em;
   }
