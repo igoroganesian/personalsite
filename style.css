@@ -335,11 +335,15 @@ img {
   nav {
     height: 6em;
     line-height: 6em;
+    padding-left: 1.5em;
   }
 
   nav ul {
-    padding-right: 1em;
     justify-content: space-around;
+  }
+
+  nav li {
+    padding: 0 .3em;
   }
 
   nav ul li a {
