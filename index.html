@@ -17,7 +17,7 @@
     <div class="header-text">
       <p>Hey, I'm Igor 👋</p>
       <div class="header-image-top">
-        <img src="./resources/self.png" alt="igor">
+        <img class="header-img" src="./resources/self.png" alt="igor">
       </div>
       <h2>Full-Stack Engineer</h1>
       <p>An adaptive developer with a passion for merging meticulous craftsmanship with user-centric design.</p>
@@ -46,61 +46,49 @@
   <section class="projects" id="projects" href="#projects">
     <br>
     <h2>Projects</h2>
-    <p class="projectsHover"><i>(hover over any project to learn more!)</i></p>
     <div class="project" data-aos="fade-right" data-aos-once="true">
-      <img src="./resources/pixly1.png">
-      <div class="overlay">
+      <div class="project-image">
+        <img src="./resources/pixly1.png">
+      </div>
+      <div class="project-description">
         <h3>Pixly</h3>
+        <h6>React · Flask · PostgreSQL · AWS S3 · PIL</h6>
         <p>
-          An image gallery app that uploads to S3; images display metadata.
+          Pixly is a full-stack image gallery app that allows users to upload images to their board, view
+          metadata, and search by caption. Images are stored in an AWS S3 bucket, and processed using the
+          Python Imaging Library (PIL).
         </p>
-        <ul class="toolsUsed">
-          <li>React</li>
-          <li>Flask</li>
-          <li>PostgreSQL</li>
-          <li>AWS S3</li>
-          <li>PIL</li>
-        </ul>
-        <div class="viewProject">
-          <a href="https://github.com/igoroganesian/pixly-frontend" target="_blank" class="button">github</a>
-        </div>
+        <a href="https://github.com/igoroganesian/pixly-frontend" target="_blank" class="button">GitHub</a>
       </div>
     </div>
     <div class="project">
-      <img src="./resources/jobly1.png">
-      <div class="overlay">
+      <div class="project-image">
+        <img src="./resources/jobly1.png">
+      </div>
+      <div class="project-description">
         <h3>Jobly</h3>
+        <h6>React · Express · PostgreSQL · bcrypt</h6>
         <p>
-          A job board with company pages, user profiles, and search features.
+          Jobly is a full-stack job board site allowing users to find (and eventually apply)
+          to jobs posted by companies. This project was an opportunity to practice test-driven
+          development (TDD) and includes 100% test coverage.
         </p>
-        <ul class="toolsUsed">
-          <li>React</li>
-          <li>Express</li>
-          <li>PostgreSQL</li>
-          <li>bcrypt</li>
-        </ul>
-        <ul class="viewProject">
-          <a href="https://github.com/igoroganesian/react-jobly" target="_blank" class="button">github</a>
-        </ul>
+        <a href="https://github.com/igoroganesian/react-jobly" target="_blank" class="button">GitHub</a>
       </div>
     </div>
     <div class="project">
-      <img src="./resources/warbler2.png">
-      <div class="overlay">
+      <div class="project-image">
+        <img src="./resources/warbler2.png">
+      </div>
+      <div class="project-description">
         <h3>Warbler</h3>
+        <h6>Flask · SQLAlchemy · jQuery · Axios</h6>
         <p>
-          A social microblogging & networking site allowing users to post,
-          like, follow etc.
+          Warbler is a social microblogging and networking site that allows users to write posts,
+          follow/unfollow other users and like their posts, search by username, and edit their profiles.
+          It includes full authentication/authorization features and robust unit tests.
         </p>
-        <ul class="toolsUsed">
-          <li>Flask</li>
-          <li>SQLAlchemy</li>
-          <li>jQuery</li>
-          <li>Axios</li>
-        </ul>
-        <ul class="viewProject">
-          <a href="https://github.com/igoroganesian/flask-warbler" target="_blank" class="button">github</a>
-        </ul>
+        <a href="https://github.com/igoroganesian/flask-warbler" target="_blank" class="button">GitHub</a>
       </div>
     </div>
   </section>
