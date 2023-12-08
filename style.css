@@ -247,3 +247,9 @@ a:hover {
     flex-direction: column;
   }
 }
+
+@media screen and (max-width: 700px) {
+  .project-image img {
+    border-radius: 5px;
+  }
+}
