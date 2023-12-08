@@ -154,8 +154,16 @@ a:hover {
 }
 
 .project-image, .project-description {
-  flex: 1;
   padding: 20px;
+}
+
+.project-image {
+  flex: 2;
+  height: 100%;
+}
+
+.project-description {
+  flex: 1;
 }
 
 .project-image img {
@@ -216,7 +224,7 @@ a:hover {
   left: 0;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 950px) {
   body {
     padding: 0 1em;
   }
