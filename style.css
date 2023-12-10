@@ -40,6 +40,8 @@ h2 {
   margin-top: 30px;
 }
 
+/* HEADER */
+
 header {
   justify-content: space-between;
   align-items: center;
@@ -152,7 +154,8 @@ a:hover {
   border-radius: 10px;
 }
 
-.project-image, .project-description {
+.project-image,
+.project-description {
   padding: 20px;
 }
 
