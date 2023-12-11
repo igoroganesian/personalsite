@@ -226,7 +226,7 @@ a:hover {
   left: 0;
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1000px) {
   body {
     padding: 0 1em;
   }
