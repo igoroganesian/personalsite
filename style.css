@@ -27,11 +27,13 @@ nav ul,
 .nav-right,
 header,
 .projects,
-.project {
+.project,
+.icon-container,
+.icon {
   display: flex;
 }
 
-nav ul {
+nav ul, header {
   justify-content: space-between;
 }
 
@@ -42,7 +44,6 @@ h2 {
 /* HEADER */
 
 header {
-  justify-content: space-between;
   align-items: center;
   padding: 1em;
   margin-bottom: 5em;
@@ -95,6 +96,11 @@ a:hover {
   font-weight: 450;
 }
 
+.resume:hover {
+  border-bottom: 4px solid hsl(240, 16%, 14%);
+  padding-bottom: 5px;
+}
+
 /* NAV */
 
 nav {
@@ -111,7 +117,6 @@ nav {
 
 nav ul {
   align-items: center;
-  justify-content: space-between;
   width: 100%;
   padding-right: 2em;
 }
@@ -133,7 +138,7 @@ a {
 }
 
 a:hover {
-  color: hsl(308, 6%, 57%);
+  color: hsl(305, 8%, 72%);
 }
 
 /* PROJECTS */
@@ -209,6 +214,23 @@ a:hover {
 
 #contact i {
   margin: 0 .5em;
+}
+
+.icon-container,
+.icon {
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  height: 70px;
+  width: auto;
+}
+
+.icon:hover {
+  background-color: hsl(240, 6%, 91%);
+  border-radius: 100%;
+  transition: background-color 0.1s ease-in;
 }
 
 /* FOOTER */
