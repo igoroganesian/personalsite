@@ -104,13 +104,14 @@ a:hover {
 
 nav {
   background-color: hsl(240, 16%, 14%);
+  justify-content: space-between;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 10;
   opacity: 98%;
-  height: 4em;
+  height: 4.5em;
   align-items: center;
   opacity: 0;
   transition: opacity .5s ease-in-out;
@@ -118,9 +119,7 @@ nav {
 }
 
 nav ul {
-  align-items: center;
-  width: 100%;
-  padding-right: 2em;
+  padding-right: 1.5em;
 }
 
 nav ul,
@@ -133,7 +132,14 @@ nav ul:active {
 .nav-left {
   border: 3px solid hsl(51, 21%, 93%);
   border-radius: 50%;
-  width: 3rem;
+  color: hsl(51, 21%, 93%);
+  margin-left: 1em;
+  padding: .5em .7em;
+}
+
+.nav-left a {
+  width: 100%;
+  height: 100%;
   margin-left: 1em;
 }
 
