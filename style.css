@@ -291,8 +291,8 @@ a:hover {
 }
 
 @media screen and (max-width: 700px) {
-  body {
-    padding-top: 0;
+  header {
+    margin-top: 3em;
   }
 
   .project-description, .project-image {
