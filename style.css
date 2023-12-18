@@ -46,7 +46,7 @@ h2 {
 header {
   align-items: center;
   padding: 0 1em;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 @media screen and (min-width: 1366px) {
@@ -291,6 +291,10 @@ a:hover {
 }
 
 @media screen and (max-width: 700px) {
+  body {
+    padding-top: 0;
+  }
+
   .project-description, .project-image {
     padding: 10px;
   }
