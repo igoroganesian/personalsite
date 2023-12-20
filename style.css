@@ -263,6 +263,13 @@ a:hover {
   left: 0;
 }
 
+@media screen and (max-width: 1400px) {
+  .project {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 1000px) {
   body {
     padding: 0 1em;
@@ -282,11 +289,6 @@ a:hover {
 
   .header-image {
     display: none;
-  }
-
-  .project {
-    flex-direction: column;
-    width: 100%;
   }
 }
 
