@@ -35,8 +35,18 @@ nav ul {
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 4em;
   letter-spacing: .1rem;
+}
+
+h2,
+p {
+  padding: .5em 0;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: 500;
 }
 
 a {
@@ -93,15 +103,6 @@ header p {
   font-weight: bold;
 }
 
-h2,
-p {
-  padding: .5em 0;
-}
-
-h2 {
-  font-size: 2em;
-}
-
 a,
 a:focus,
 a:hover {
@@ -132,6 +133,15 @@ a:hover {
 .btn:hover {
   color: hsl(240, 16%, 14%);
   background-color: #fff;
+}
+
+header h1 {
+  border-top: 3px solid hsl(240, 16%, 14%);
+  padding-top: 10px;
+}
+
+header h2 {
+  border-bottom: 3px solid hsl(240, 16%, 14%);
 }
 
 /* PROJECTS */
@@ -226,6 +236,7 @@ a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 1em;
 }
 
 .resume-btn {
