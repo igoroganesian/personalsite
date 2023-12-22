@@ -132,6 +132,7 @@ a:hover {
 .btn:hover {
   color: hsl(240, 16%, 14%);
   background-color: #fff;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
 }
 
 header h1 {
@@ -168,8 +169,14 @@ header h2 {
   justify-content: center;
   max-width: 100%;
   margin: 1em 0;
-  background-color: hsl(240, 6%, 91%);
+  background-color: hsl(240, 6%, 95%);
   border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.project:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
 }
 
 .project-image,
