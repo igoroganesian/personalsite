@@ -20,6 +20,8 @@ nav,
 nav ul,
 .nav-right,
 header,
+.projects-header,
+.projects-header .btn,
 .project,
 #about,
 .about-text,
@@ -133,6 +135,15 @@ a:hover {
 }
 
 /* PROJECTS */
+
+.projects-header {
+  justify-content: space-between;
+}
+
+.projects-header .btn {
+  align-items: center;
+  justify-content: center;
+}
 
 .projects {
   /* display: grid;
