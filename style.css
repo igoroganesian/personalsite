@@ -138,6 +138,7 @@ a:hover {
 header h1 {
   border-top: 3px solid hsl(240, 16%, 14%);
   padding-top: 10px;
+  margin-top: 1em;
 }
 
 header h2 {
