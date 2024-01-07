@@ -118,7 +118,7 @@ header p {
 
 .header-chevron {
   position: absolute;
-  bottom: 3em;
+  bottom: 3.5em;
   animation: bounce 1s infinite;
 }
 
@@ -176,7 +176,11 @@ header h2 {
   align-items: center;
   justify-content: center;
   max-width: 80%;
+<<<<<<< HEAD
   margin: 3em auto;
+=======
+  margin: 2em auto;
+>>>>>>> f13bc21 (header chevron)
   background-color: hsl(240, 6%, 95%);
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
@@ -317,6 +321,17 @@ header h2 {
   }
 }
 
+/** CHEVRON ANIMATION */
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+}
+
 /** MEDIA QUERIES */
 
 @media screen and (min-width: 1366px) {
@@ -382,5 +397,15 @@ header h2 {
 @media screen and (max-width: 500px) {
   header h1 {
     margin-top: .5em;
+  }
+
+  .project-description {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .project-description a {
+    margin: 0 auto;
   }
 }
