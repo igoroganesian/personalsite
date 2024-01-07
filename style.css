@@ -164,11 +164,6 @@ header h2 {
 
 /* PROJECTS */
 
-.projects-header {
-  justify-content: space-between;
-  margin-left: 2em;
-}
-
 .projects {
   flex-direction: column;
   align-items: center;
