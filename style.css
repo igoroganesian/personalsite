@@ -102,16 +102,24 @@ nav {
 /* HEADER */
 
 header {
+  flex-direction: column;
   text-align: center;
   justify-content: center;
   align-items: center;
   padding: 0 7em;
   margin: 0 auto;
   min-height: 100vh;
+  position: relative;
 }
 
 header p {
   font-weight: bold;
+}
+
+.header-chevron {
+  position: absolute;
+  bottom: 3em;
+  animation: bounce 1s infinite;
 }
 
 a,
@@ -160,6 +168,7 @@ header h2 {
 
 .projects-header {
   justify-content: space-between;
+  margin-left: 2em;
 }
 
 .projects {
@@ -172,8 +181,8 @@ header h2 {
 .project {
   align-items: center;
   justify-content: center;
-  max-width: 100%;
-  margin: 1em 0;
+  max-width: 80%;
+  margin: 2em auto;
   background-color: hsl(240, 6%, 95%);
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
@@ -306,6 +315,17 @@ header h2 {
   height: 2em;
   padding: .5em;
   left: 0;
+}
+
+/** CHEVRON ANIMATION */
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
 }
 
 /** MEDIA QUERIES */
