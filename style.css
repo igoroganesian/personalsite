@@ -81,7 +81,7 @@ nav {
 .nav-left {
   border: 3px solid hsl(240, 16%, 14%);
   border-radius: 50%;
-  margin-left: 1em;
+  margin-left: 2em;
   padding: .5em .7em;
 }
 
@@ -92,8 +92,12 @@ nav {
 }
 
 .nav-right {
-  margin-right: 1em;
+  margin-right: 2em;
   gap: 1em;
+}
+
+.nav-right a {
+  font-size: 1.2em;
 }
 
 /* HEADER */
@@ -139,7 +143,7 @@ a:hover {
 
 .btn:hover {
   color: hsl(240, 16%, 14%);
-  background-color: #fff;
+  background-color: hsl(240, 6%, 95%);
   box-shadow: 0 6px 12px rgba(0,0,0,0.2);
 }
 
@@ -216,7 +220,7 @@ header h2 {
 
 .project-description a {
   color: hsl(240, 16%, 14%);
-  background-color: #fff;
+  background-color: hsl(240, 6%, 95%);
 }
 
 /* ABOUT */
@@ -249,15 +253,15 @@ header h2 {
 
 .resume-btn {
   color: hsl(240, 16%, 14%);
-  background-color: #fff;
-  border: 1px solid #fff;
+  background-color: hsl(240, 6%, 95%);
+  border: 1px solid hsl(240, 16%, 14%);
   margin: 1em 0 2em 0;
 }
 
 .resume-btn:hover,
 .project-btn:hover {
   background-color: hsl(240, 16%, 14%);
-  color: #fff;
+  color: hsl(240, 6%, 95%);
 }
 
 /* CONTACT */
