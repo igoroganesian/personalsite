@@ -118,7 +118,7 @@ header p {
 
 .header-chevron {
   position: absolute;
-  bottom: 3em;
+  bottom: 3.5em;
   animation: bounce 1s infinite;
 }
 
