@@ -112,6 +112,10 @@ header {
   position: relative;
 }
 
+.header-text {
+  margin-bottom: 1.5em;
+}
+
 header p {
   font-weight: bold;
 }
