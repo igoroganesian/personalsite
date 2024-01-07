@@ -1,5 +1,5 @@
 * {
-  font-family: 'Raleway';
+  font-family: 'Inter';
   font-size: 16px;
   font-weight: 400;
   margin: 0;
@@ -36,7 +36,6 @@ nav ul {
 
 h1 {
   font-size: 4em;
-  letter-spacing: .1rem;
 }
 
 h2,
@@ -58,7 +57,7 @@ a {
 p {
   line-height: 1.5;
   font-size: 1.1em;
-  letter-spacing: .06rem;
+  /* letter-spacing: .05rem; */
   font-weight: 500;
 }
 
